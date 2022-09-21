@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 const Text = styled.p`
   color: ${props => props.theme.colors.accent};
-  font-famile: ${props => props.theme.fonts.body};
+  font-family: ${props => props.theme.fonts.body};
+  font-size: ${props => props.theme.fontSizes.l};
+  padding: ${props => props.theme.space[4]}px;
 `;
 
 export const App = () => {
