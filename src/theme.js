@@ -7,9 +7,10 @@ export const theme = {
     primary: '#07c',
     secondary: '#05a',
     accent: '#609',
-    muted: '#f6f6f6',
+    muted: 'grey',
+    //     muted: '#f6f6f6',
   },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
     body: 'system-ui, sans-serif',
     heading: 'system-ui, sans-serif',
@@ -33,7 +34,12 @@ export const theme = {
   borders: {
     none: 'none',
     normal: '1px solid',
+    borderWidth: {
+      thick: 'thick',
+      '1em': '1em',
+    },
   },
+
   radii: {
     none: '0',
     normal: '4px',
